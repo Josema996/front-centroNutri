@@ -1,0 +1,181 @@
+body {
+    background-color: #92d696; /* Fondo verde clarito */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #D7FFB7; /* Fondo blanco para el contenido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centra el contenido del container */
+  }
+  
+  .text-center {
+    color: #333; /* Color del texto principal */
+  }
+  
+  .form-label {
+    color: #555; /* Color del texto de las etiquetas */
+  }
+  /* Estilos adicionales para el formulario */
+  .form-container {
+    margin-top: 40px; /* Espaciado superior para separar del NavBar */
+  }
+  
+  .form-label {
+    color: #555; /* Color del texto de las etiquetas */
+  }
+  
+  /* Estilos para la imagen */
+  .img-container {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    margin-top: 20px; /* Espaciado superior para separar del formulario */
+  }
+  
+  .nutritional-center-text {
+    font-size: 23px; /* Tamaño de la fuente del texto */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    color: #555;
+    margin-top: 20px; /* Espaciado superior para centrar */
+    text-align: center; /* Centra el texto */
+    margin-left: -5px; /* Ajusta el margen izquierdo */
+    margin-right: 50px;
+  }
+ 
+  
+  /* Estilos para la imagen */
+  .img-fluid {
+    max-width: 50% !important; /* Reduce el tamaño de la imagen */
+    height: auto;
+    margin-top: 20px; /* Espaciado superior para separar del texto */
+  }
+  
+  /* Estilos para los cuadros de texto más pequeños */
+  .form-input {
+    width: 80%; /* Ajusta el ancho del cuadro de texto */
+    padding: 6px; /* Ajusta el espaciado interno */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    height: 15px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  /* Estilos para los cuadros de texto más pequeños y altos */
+  .large-input {
+    height: 60px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  /* Estilos para el botón de enviar */
+  .btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px; /* Ajusta el relleno del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para los iconos más grandes */
+  .form-icon {
+    margin-right: 10px;
+    font-size: 16px; /* Ajusta el tamaño del icono según tus necesidades */
+  }
+  
+  .btn-icon {
+    margin-right: 10px;
+    font-size: 16px; /* Ajusta el tamaño del icono según tus necesidades */
+  }
+  
+  .form-input[name='message'] {
+    height: 120px; /* Ajusta la altura del cuadro de texto "Mensaje" de forma específica */
+    margin-left: 30px;
+  }
+  
+  .message-icon {
+    margin-top: -10px; /* Ajusta el espacio superior del icono de mensaje */
+  }
+  
+  .form-icon-container {
+    display: inline-block; /* Asegura que el contenedor se comporte como un bloque en línea */
+    margin-top: -50px; /* Ajusta el espacio superior del contenedor del icono de mensaje */
+  }
+  
+  /* Estilos para el combobox de "Asunto" */
+  .form-input[name='subject'] {
+    height: 30px; /* Ajusta la altura del combobox "Asunto" */
+    width: 80%; /* Ajusta el ancho del combobox "Asunto" */
+  }
+  
+  /* Estilos para el nuevo contenedor */
+  .container-third {
+    margin-top: 20px; /* Ajusta el espacio superior según tus necesidades */
+  }
+  
+  .text-center-third {
+    text-align: center; /* Centra el texto del tercer cuadro */
+  }
+  
+  .nutritional-center-text-third {
+    margin-top: 20px; /* Ajusta el espacio superior del texto según tus necesidades */
+    margin-left: 40px;
+  }
+  
+  /* Estilos para el texto "Conóceme mejor" */
+  .conoceme-text {
+    font-size: 28px; /* Ajusta el tamaño del texto según tus necesidades */
+    margin-top: 29px; /* Ajusta el espacio superior según tus necesidades */
+  }
+  
+  /* Estilos para el botón de descargar CV en el tercer contenedor */
+  .btn-download-third {
+    margin-top: 5px; /* Ajusta el espacio superior del botón según tus necesidades */
+    background-color: #28a745; /* Color verde */
+    color: #fff; /* Color del texto */
+    padding: 12px 24px; /* Ajusta el relleno del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-download-third:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el ratón */
+  }
+
+  .btn-view-offices {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Ajusta el espacio superior del botón según tus necesidades */
+  }
+  
+  .btn-view-offices:hover {
+    background-color: #0056b3;
+  }
+  .button-group {
+    margin-top: 10px; /* Ajusta el espacio superior entre los botones según tus necesidades */
+  }
+
+  .container h2 {
+    font-size: 28px; /* Ajusta el tamaño de la fuente del título */
+    margin-right: 50px;
+  }
+  
+  .container .row .col-md-6.text-center .nutritional-center-text ul.list-unstyled li {
+    margin-top: 15px;
+    font-size: 18px; /* Ajusta el tamaño de la fuente de los elementos li */
+    margin-bottom: 10px; /* Ajusta el espacio inferior entre los elementos li */
+    color: #333; /* Ajusta el color del texto de los elementos li */
+    margin-right: 10px;
+  }

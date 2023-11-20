@@ -1,0 +1,86 @@
+/* NavBar.css */
+.navbar {
+  padding: 2px; /* Ajusta el espaciado según sea necesario */
+}
+
+.navbar-logo {
+  max-width: 66px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  margin-right: 10px; /* Espaciado a la derecha de la imagen */
+}
+
+.btn-outline-primary {
+  border: none; /* Elimina el borde de los botones */
+}
+
+.btn-outline-primary.mx-2 {
+  font-size: 18px; /* Ajusta el tamaño de los botones según tus preferencias */
+}
+
+.btn-outline-primary.mx-2:hover {
+  background-color: #ffffff; /* Cambia el color de fondo al pasar el mouse sobre los botones */
+}
+
+/* Estilos para los botones de Inicio, Servicios y Contacto */
+.btn-outline-primary.mx-2 {
+  font-size: 20px; /* Ajusta el tamaño de los botones según tus preferencias */
+  border: none; /* Elimina el borde de los botones */
+}
+
+.btn-outline-primary.mx-2:hover {
+  background-color: transparent; /* Cambia el color de fondo al pasar el mouse sobre los botones */
+  color: #fff; /* Cambia el color del texto al pasar el mouse sobre los botones */
+}
+/* NavBar.css */
+.btn-outline-primary.me-2 {
+  font-size: 20px; /* Ajusta el tamaño de los botones "Reserve su Turno" y "Cancele su Turno" */
+}
+
+.btn-outline-primary.me-2:hover {
+  background-color: transparent; /* Cambia el color de fondo al pasar el mouse sobre los botones */
+  color: #fff; /* Cambia el color del texto al pasar el mouse sobre los botones */
+}
+.navbar-text {
+  font-size: 23px; /* Ajusta el tamaño del texto según tus preferencias */
+  color: #333; /* Cambia el color del texto según tus preferencias */
+  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+  margin-left: 15px; /* Ajusta el margen izquierdo del texto según tus preferencias */
+}
+.bg-green {
+  background-color: #8ac28a; /* Cambia el color a tu preferencia */
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.nav-link {
+  color: #ffffff; /* Cambia el color del texto a blanco o el que prefieras */
+  border: none; /* Elimina el borde de los botones */
+}
+
+/* Cambia el color de fondo al pasar el mouse sobre los enlaces */
+.nav-link:hover {
+  background-color: #2980b9; /* Cambia el color al pasar el mouse sobre los enlaces */
+}
+
+.navbar-top {
+  background-color: #73b873; /* Verde oscuro */
+}
+
+/* Barra principal (verde claro) */
+.navbar-main {
+  background-color: #8ac28a; /* Verde claro */
+}
+
+.custom-btn {
+  color: #000;
+}
+
+.custom-btn:hover {
+  color: #fff; /* Blanco */
+}

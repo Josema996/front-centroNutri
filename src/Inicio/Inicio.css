@@ -1,0 +1,366 @@
+/* Inicio.css */
+.inicio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+  color: #ffffff;
+  margin-top: 50px; /* Ajusta la distancia desde la parte superior según sea necesario */
+}
+
+.video-container {
+  position: relative;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+  overflow: hidden;
+  margin-bottom: 100px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.cuadro-flotante {
+  background-size: cover;
+  border: 1px solid #ccc;
+  padding: 20px; /* Ajusta según sea necesario */
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px; /* Ajusta según sea necesario */
+  max-width: 800px; /* Ajusta según sea necesario */
+  margin: auto; /* Centra el cuadro */
+  color: #030303;
+  background-color: #ffffff;
+}
+
+/* Otros estilos generales de Inicio.js */
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.opcion-medico,
+.opcion-paciente,
+.boton-atras {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 12px; /* Ajusta según sea necesario */
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.opcion-medico:hover,
+.opcion-paciente:hover,
+.boton-atras:hover {
+  background-color: #2980b9;
+}
+
+.opcion-medico:active,
+.opcion-paciente:active,
+.boton-atras:active {
+  background-color: #1f618d;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff; /* Fondo celeste */
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra sutíl */
+  z-index: 1000; /* Asegura que el Navbar esté por encima del video */
+  transition: top 0.3s; /* Agregado para un desplazamiento suave */
+}
+
+.navbar img {
+  height: 60px; /* Ajusta según tus preferencias */
+  width: 60px;
+  margin-left: 10px;
+}
+
+
+.logo {
+  max-width: 100px; /* Ajusta según sea necesario */
+  height: auto;
+}
+
+
+.navbar-options {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centra las opciones horizontalmente */
+  flex-grow: 1; /* Permite que las opciones ocupen el espacio restante */
+}
+
+.navbar-options span {
+  position: relative;
+  color: #333; /* Color del texto */
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Transición suave del color */
+  margin-right: 45px; /* Ajusta según sea necesario */
+}
+
+.navbar-options span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3498db; /* Color celeste del indicador */
+  transition: width 0.3s ease; /* Transición suave de la anchura */
+}
+
+.navbar-options span:hover {
+  color: #3498db; /* Color del texto al pasar el ratón */
+}
+
+.navbar-options span:hover::after {
+  width: 100%; /* Muestra el indicador completo al pasar el ratón */
+}
+
+.navbar-options span:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.navbar-options span:hover {
+  color: #1f618d; /* Color del texto al pasar el ratón */
+}
+
+
+.footer {
+  background-color: #dfe2df;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 120px; /* Ajusta el margen superior según sea necesario para bajar el footer */
+}
+
+.social-icons a {
+  font-size: 2rem;
+  color: #000000; /* Color del ícono negro */
+}
+
+.footer-heading,
+.footer-text {
+  color: #000000; /* Color del texto negro */
+}
+
+.carrusel-container {
+  width: 100%; /* O establece un ancho específico en píxeles o porcentaje según tus necesidades */
+  max-width: 1500px; /* Ajusta el ancho máximo del carrusel según tus necesidades */
+  margin: 10px auto; /* Ajusta el margen superior e inferior según sea necesario */
+  max-height: 500px; /* Ajusta la altura del carrusel según tus necesidades */
+  overflow: hidden; /* Recorta el contenido que se desborda del contenedor */
+}
+
+.carrusel-item img {
+  width: 100%; /* Establece el ancho fijo deseado */
+  height: 100%; /* Permite que la altura se ajuste automáticamente según el ancho */
+  object-fit: cover; /* Mantiene la relación de aspecto y corta la imagen según sea necesario */
+}
+
+.scroll-down-container {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: #3498db; /* Color celeste, puedes ajustarlo según tus preferencias */
+  font-size: 50px; /* Ajusta el tamaño de la flecha según sea necesario */
+}
+
+
+.scroll-down-icon {
+  vertical-align: middle;
+}
+
+.siguiente-contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff; /* Fondo del contenedor, ajusta según tus preferencias */
+  padding: 40px; /* Espaciado interno del contenedor, ajusta según tus preferencias */
+}
+
+
+.opcion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+}
+
+.opcion-info {
+  color: #b3a7a7;
+  margin-top: 10px;
+}
+
+.opcion-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.opcion-info p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.titulo-container {
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; /* Ajusta según sea necesario */
+  height: 200px; /* Ajusta según sea necesario */
+}
+
+.titulo-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #4993c4;
+}
+
+.titulo-container h2 {
+  font-size: 1.1rem;
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+  color: #b3a7a7;
+}
+
+.titulo-container p {
+  font-size: 1.1rem;
+  color: #b3a7a7;
+  line-height: 2.0;
+  max-width: 700px; /* Ajusta según sea necesario */
+  text-align: center; /* Centra el texto horizontalmente */
+  margin: 0 auto; /* Centra el texto horizontalmente */
+}
+
+.ingreso-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6aa7cf;
+  margin-top: 50px; /* Ajusta según sea necesario */
+  border-radius: 20px;
+  position: relative;
+}
+
+.imagen-container {
+  flex: 1;
+}
+
+.imagen-container img {
+  width: 100%;
+  height: auto;
+}
+
+.ingreso-opciones {
+  flex: 1.5;
+  text-align: center;
+  border-radius: 0 8px 8px 8px; 
+}
+
+.titulo-ingreso {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+  margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+.opcion-ingreso {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #3498db; /* Texto azul */
+  padding: 12px;
+  margin-top: 20px; /* Ajusta según sea necesario */
+  border: 2px solid #3498db; /* Borde azul */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+}
+
+.opcion-ingreso:hover {
+  background-color: #3498db; /* Fondo azul al pasar el ratón */
+  color: #ffffff;
+}
+
+.opcion-ingreso:active {
+  background-color: #1f618d; /* Fondo más oscuro al hacer clic */
+  color: #ffffff;
+}
+
+.nuevo-contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0; /* Ajusta según sea necesario */
+}
+
+.opcion-container {
+  text-align: center;
+  max-width: 300px; /* Ajusta el ancho máximo del contenedor según sea necesario */
+}
+
+.opcion-icon {
+  max-width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilo para el contenedor principal */
+.nuevo-contenedor {
+  text-align: center;
+}
+
+/* Estilos para el título principal "Comentarios" */
+.comentarios-titulo {
+  font-size: 48px; /* Tamaño del texto aumentado */
+  margin-bottom: 5px;
+  color: #3498db; /* Color del texto cambiado a celeste */
+  text-align: center; /* Asegúrate de centrar el texto dentro del elemento */
+  margin-top: 60px;
+}
+
+/* Estilos para el subtítulo "- Últimos posts -" */
+.comentarios-subtitulo {
+  font-size: 18px;
+  text-align: center; /* Añadido para centrar el texto */
+  color: #b3a7a7
+}
+
+
+.whatsapp-icon-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon {
+  color: #fff; /* Color del ícono */
+  font-size: 24px;
+  margin-right: 20px;
+}

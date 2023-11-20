@@ -1,0 +1,60 @@
+.footer {
+  background-color: #8ac28a;
+  color: white;
+  padding: 20px 0; /* Ajusta el espacio superior e inferior */
+  text-align: center;
+  width: 100%;
+  bottom: 0; /* Asegura que esté en la parte inferior */
+  left: 0; /* Asegura que esté en la parte izquierda */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenido ocupe al menos la altura completa de la ventana */
+}
+
+.video-container {
+  position: relative;
+  flex-grow: 1; /* El video-container ocupa el espacio restante */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 2rem; /* Ajusta el tamaño de los iconos de redes sociales */
+  color: #ffffff; /* Cambia el color de los iconos si es necesario */
+}
+
+.footer-heading {
+  font-size: 1.5rem; /* Ajusta el tamaño del texto para los títulos */
+  color: #ffffff; /* Cambia el color del texto si es necesario */
+}
+
+.footer-text {
+  font-size: 1.2rem; /* Ajusta el tamaño del texto para el contenido */
+  color: #ffffff; /* Cambia el color del texto si es necesario */
+  margin-bottom: 20px;
+}
+
+
+.col-md-4 h5 {
+  margin-bottom: 20px; /* Ajusta el valor según la separación que desees */
+}
+
+.contact-item{
+  margin-bottom: 15px;
+}
+.separator {
+  margin-top: 20px; /* Puedes ajustar esto según la separación deseada */
+  border-top: 1px solid #ccc; /* Añade una línea divisoria */
+}
+
+.online-hours {
+  margin-top: 20px; /* Puedes ajustar esto según la separación deseada */
+}

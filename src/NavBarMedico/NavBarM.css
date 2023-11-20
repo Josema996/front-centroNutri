@@ -1,0 +1,60 @@
+/* NavBarM.css */
+
+.navbar-medico {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+  width: 70px; /* Ajustar el tamaño del logo */
+  height: 70px; /* Ajustar el tamaño del logo */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 50px; /* Aumentar el espacio entre las opciones del navbar */
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px; /* Aumentar el tamaño del texto */
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #ecf0f1;
+}
+
+/* Agregar estilos para el botón de inicio */
+.nav-list a:first-child {
+  background-color: #3498db;
+  color: #021f30;
+  padding: 12px 20px; /* Ajustar el tamaño del botón de inicio */
+  border-radius: 5px;
+  font-size: 16px; /* Aumentar el tamaño del texto del botón */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:first-child:hover {
+  background-color: #021f30;
+  color: #ecf0f1;
+}

@@ -1,0 +1,95 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Mejora el estilo del selector de fecha */
+.date-picker,
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el botón */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Añade una transición suave al color de fondo */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.volver-atras-btn {
+  background-color: blue; /* Cambia al color que desees */
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.volver-atras-btn:hover {
+  background-color: darkblue; /* Cambia al color que desees al pasar el ratón */
+}
+
+.success-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.success-alert p {
+  margin: 0 0 15px;
+}
+
+.success-alert button {
+  background-color: #45a049;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-alert button:hover {
+  background-color: #388e3c;
+}
+

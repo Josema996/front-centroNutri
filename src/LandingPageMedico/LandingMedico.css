@@ -1,0 +1,260 @@
+
+.landing-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px;
+  }
+  
+  .dashboard {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+
+  .dashboard-stat p {
+    font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+    margin: 5px 0; /* Ajusta el margen según tus preferencias */
+  }
+  
+  .opciones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;  
+  }
+  
+  .btn-turnos,
+  .btn-consultas {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 15px 20px;
+    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-turnos:hover,
+  .btn-consultas:hover {
+    background-color: #27ae60;
+    transform: scale(1.1);
+  } 
+
+  .dashboard,
+  .opciones {
+    /* ... tus estilos actuales ... */
+    margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
+  }
+
+  .grafico-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: transparent; /* Agrega esta línea */
+  }
+  
+  .grafico {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+  
+  .lista-pacientes {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  .perfil-medico {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .perfil-medico:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .perfil-medico h2 {
+    color: #3498db;
+    font-size: 28px; /* Tamaño de la fuente aumentado */
+    margin-bottom: 10px;
+  }
+  
+  .perfil-medico p {
+    color: #555;
+    font-size: 18px; /* Tamaño de la fuente aumentado */
+    margin: 8px 0;
+  }
+
+  .foto-perfil {
+    width: 100px; /* Ajusta el tamaño según tus preferencias */
+    height: 100px; /* Ajusta el tamaño según tus preferencias */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .info-container {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .info-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-container h2 {
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .info-container p {
+    color: #555;
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  .turnos-container {
+    width: 100%;
+    max-height: 900px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+  
+  .turnos-container ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .turnos-container ul li {
+    padding: 15px;
+    border-bottom: 1px solid #ecf0f1; /* Light border between list items */
+    transition: background-color 0.3s ease;
+  }
+  
+  .turnos-container ul li:hover {
+    background-color: #f2f2f2; /* Hover background color for better feedback */
+  }
+  
+  /* Add a scrollbar for overflow */
+  .turnos-container ul {
+    overflow-y: auto;
+  }
+  
+  /* Customize scrollbar (if needed) */
+  .turnos-container ul::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .turnos-container ul::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* Scrollbar thumb color */
+    border-radius: 4px;
+  }
+  
+  .turnos-container ul::-webkit-scrollbar-track {
+    background-color: #ecf0f1; /* Scrollbar track color */
+    border-radius: 4px;
+  }
+  
+  /* Additional styles for better spacing and readability */
+  .turnos-container h2 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .turnos-container p {
+    color: #555;
+    font-size: 16px;
+    margin: 8px 0;
+  }
+
+
+  .crear-servicios-container {
+    background-color: #f5f5f5; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Margen superior */
+  }
+  
+  .crear-servicios-container h2 {
+    color: #3498db; /* Color del título */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espaciado entre grupos de formulario */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Color del texto de la etiqueta */
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  button {
+    background-color: #2ecc71; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27ae60; /* Cambia el color de fondo al pasar el ratón */
+  }
+
+.imagen-izquierda,
+.imagen-derecha {
+  position: absolute;
+  top: 50%; /* Alinea verticalmente al centro */
+  transform: translateY(1000%);
+  max-height: 100px; /* Ajusta según sea necesario */
+  width: 220px;
+  margin-left: 30px;
+}
+
+.imagen-izquierda {
+  left: 0;
+}
+
+.imagen-derecha {
+  right: 0;
+}

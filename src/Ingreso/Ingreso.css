@@ -1,0 +1,107 @@
+/* Ingreso.css */
+
+.cuadro-flotante-ingreso {
+    background-size: cover;
+    border: 1px solid #ccc;
+    padding: 20px; /* Ajusta según sea necesario */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Ajusta según sea necesario */
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: auto; /* Centra el cuadro */
+    color: #1d1b1b;
+    background-color: #ffffff;
+  }
+  
+  /* Otros estilos específicos de Ingreso.js */
+
+  .opciones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .opcion-medico,
+  .opcion-paciente,
+  .boton-atras {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+  }
+  
+  .opcion-medico:hover,
+  .opcion-paciente:hover,
+  .boton-atras:hover {
+    background-color: #2980b9;
+  }
+  
+  .opcion-medico:active,
+  .opcion-paciente:active,
+  .boton-atras:active {
+    background-color: #1f618d;
+  }
+
+  .fondo-comun-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .fondo-comun-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .boton-registrarse {
+    background-color: #2ecc71; /* Cambia el color según tus preferencias */
+    color: #ffffff;
+    padding: 12px; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-registrarse:hover {
+    background-color: #27ae60; /* Cambia el color al hacer hover */
+  }
+  
+  .boton-registrarse:active {
+    background-color: #218c53; /* Cambia el color al hacer clic */
+  }
+
+  /* Agrega estilos para la animación del mensaje de error */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+/* Estilos del mensaje de error */
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 10px;
+  animation: shake 2.5s ease-in-out; /* Aplica la animación */
+}
